@@ -1,0 +1,89 @@
+/* 
+fonts
+
+font-family: 'Aboreto', cursive; --combate
+font-family: 'Asap Condensed', sans-serif; --titulo
+font-family: 'Mukta', sans-serif; --texto
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Asap+Condensed:ital,wght@0,200;0,400;0,700;1,200&family=Mukta:wght@200;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url('logo-with-name.png');
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #a6d0e4;
+}
+
+body{
+    background-color: #cde5f0;
+    color: #2a2a2a;
+    font-family: 'Mukta', sans-serif; 
+}
+
+.wrap{
+    width: 70vw;
+    margin: auto;
+    padding: 50px 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #111111;
+}
+
+.medieval-font{
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 15px;
+    border: 2px solid #a6d0e4;
+    display: flex;
+    color: #2a2a2a;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    transition: all ease 100ms;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #7fbbd8;
+    color: white;
+    border: 2px solid transparent;
+}
+
+hr{
+    border: 1px solid #a6d0e4;
+    margin: 30px 0;
+}
+
+nav{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Palete color */
+/* 
+#a6d0e4
+#111111
+#cde5f0
+#7fbbd8
+#2a2a2a
+#000000 
+*/
